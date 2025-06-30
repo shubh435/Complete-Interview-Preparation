@@ -8,4 +8,7 @@ const removeFirst = (arr) => {
     return arr.filter((ele,index)=>index!=0)
 }
 
+const removeFirstS = (arr) => {
+    return arr.slice(1)
+}
 console.log(removeFirst(arr))
